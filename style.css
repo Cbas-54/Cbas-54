@@ -1,0 +1,18 @@
+#tablas, th, td {
+    border: 1px solid black;
+}
+#titulo {
+    color: purple;
+}
+#bienvenida1 {
+    color: violet;
+}
+#bienvenida2 {
+    color: red;
+}
+tbody {
+    color: blue;
+}
+#gato {
+    width: 150px;
+}
