@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
 
 <head>
     <title> judios nazis</title>
+    <meta charset="UTF-8">
+    <!--es una práctica esencial y recomendada en el desarrollo web moderno para garantizar la correcta visualización y funcionamiento de los caracteres en una página web.-->
     <link rel="stylesheet" href="style.css">
+    <!--sive para agregar fuentes personalizadas a nuestra web, esta feunte se llama: playwrite colombia-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--family=Playwrite+CO, esto indica el nombre de la fuente que importamos desde google fonts, el mas representa un espacio-->
 </head>
 
 <body>
+    <article id="fondo">
+        con esto definimos el fondo de un texto <br>
+        ella es fanatica de lo sensual
+    </article>
+    <div class="margen">
+        como funciona el margen
+    </div>
     <!--cuando estamos finalizando estilos se pone al final un punto y coma-->
     <table id="tablas">
         <!--thead nos sirve para identificar o agrupar elementos que se encuentran en la cabecera de nuestras tablas-->
@@ -54,39 +68,44 @@
         <li>elemento 3</li>
         <li>elemento 4 <br>
             <ol>
-                <ol>
-                    <li style="list-style-type: lower-alpha;">elemento 1</li>
-                    <li style="list-style-type: lower-alpha;">elemento 1</li>
-                    <li style="list-style-type: lower-alpha;">elemento 1</li>
-                </ol>
+                <li style="list-style-type: lower-alpha;">elemento 1</li>
+                <li style="list-style-type: lower-alpha;">elemento 1</li>
+                <li style="list-style-type: lower-alpha;">elemento 1</li>
             </ol>
         </li>
     </ol>
 
-
-
-
+    <hr>
     <h1 id="titulo">VIVA LA LIBERTAD CARAJO</h1>
     <hr>
     <h6> no se q poner aki</h6>
     
-    <p>
-        wenomechainasamas... 
-        tumajarbisaun... <br>
-        wifenlof... 
-    </p>
-    
-    <p>
-        pagina web  <span id="bienvenida1">aestetik</span>
+    <!--al estar en este orden podemos definir bien los blockes al momento de interaccionar con ellos
+    ahora mismo no se explicar muy bien por que en este orden, en esta estructura si funciona pero bueno funciono-->
+    <div class="container">
+        <div id="cancion">   
+            <span>
+                <a id="linkcancion" target="_blank" href="https://www.youtube.com/watch?v=KHWjajpYs1I">
+                    wenomechainsamas...<br>
+                    tumajarbisaun...<br>
+                    wifenlooof...<br>
+                    eselifterbraun...<br>
+                    <img src="img/wenomechainsamas.gif" id="wenomechainsamas"/>
+                </a>
+            </span>
+        </div>
+    </div>
+    <p class="text">
+        pagina web aestetik
     </p>  
     
     <form>
-        <label>hola, <span id="bienvenida2"> arterisco se sonroja asterisco, </span> que tal?</label><br>
-        <label for="Si" > Bien!, gracias por preguntar </label>
-        <input type="checkbox" id="Si" name="Si"/>
-        <br>
-        <label for="No" > Alejate de mi *lo denuncia por acoso sexual* </label>
-        <input type="checkbox" id="No" name="No"/>
+        <p id="hola">Hola!, <a target="_blank" href="https://youtube.com/clip/Ugkxg3nYAr61bLgAiVBlMuFv_b45Z-tO0HCC?si=7nn2AwBSpzDjhKAa"> arterisco se sonroja asterisco, </a> que tal?<br>
+            <label for="Si" > Bien!, gracias por preguntar </label>
+            <input type="checkbox" id="Si" name="Si"/><br>
+            <label for="No" > Alejate de mi *lo denuncia por acoso sexual* </label>
+            <input type="checkbox" id="No" name="No"/>
+        </p>    
     </form>
     
     <form><br>

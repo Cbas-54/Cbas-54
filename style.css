@@ -1,14 +1,42 @@
+#tablas {
+    background-image: url(img/osobodka.jpeg);
+    background-size: cover;
+}
 #tablas, th, td {
     border: 1px solid black;
-}
+    }
 #titulo {
     color: purple;
+    background-color: rgba(161, 69, 223, 0.3);
+    border: 5px purple solid;
+    border-radius: 15px;
+    text-align: center;
 }
-#bienvenida1 {
-    color: violet;
+.text {
+    font-family: 'Playwrite CO', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    /*
+    el primer dato indica cuanto se va a mover hacia la derecha
+    el segundo es para indicar cuanto se va a mover la sombra hacia abajo
+    el tercero es para indicar el difuminado de la sombra
+    */
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+
 }
-#bienvenida2 {
+/*
+#blueleibel {
     color: red;
+    text-decoration: none;
+}
+*/
+#hola {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
 }
 tbody {
     color: blue;
@@ -20,3 +48,56 @@ tbody {
     width: 150px;
 }
 
+#fondo {
+    background-color: rgba(0, 255, 200, 0.3);
+    font-size: 50px;
+}
+/*
+#cancion {
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    opacity es sirve para dar opacidad al elemento completo y no solo al color
+}
+*/
+.margen {
+    font-size: 40px;
+    background-color: cornflowerblue;
+    margin: 30px;
+    padding: 15px;
+    border: solid 5px black;
+    height: 200px;
+    width: 50px;
+    overflow: scroll;
+    outline: 20px solid blue;
+}
+
+/**/
+
+/* Estilos generales para el contenedor */
+/*tamaño del gift*/
+#wenomechainsamas {
+    width: 250px;
+}
+/*cancion es el bloque en el que se encuentra el link con la imagen, a este bloque debemos aplicarles las propiedades de de donde se va 
+a hubicar lo que contiene*/
+#cancion {
+    text-align: center; /*centra el bloque #cancion, y le agregamos un reborde (margin, y padding) para que tenga un margen con el resto de
+    elementos de la pagina*/
+    margin: 20px;
+    padding: 20px;
+}
+/*y en este bloque definimos las propiedades del texto*/
+#linkcancion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none; /*quita el subrayado del link*/
+}
+/* Cambia el color del texto solo cuando el cursor está sobre el texto dentro del enlace */
+#linkcancion:hover {
+    color: orange; /* Cambia este color al que prefieras */
+}
+
+/* Opcional: Cambia la apariencia de la imagen al pasar el ratón */
+#linkcancion:hover img {
+    filter: brightness(0.8); /* Aplica un filtro de opacidad a la imagen */
+}
